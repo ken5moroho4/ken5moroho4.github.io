@@ -1,0 +1,117 @@
+header{
+  background: url("../img/bg.png");
+  background-size: contain;
+  height: 480px;
+  text-align: center;
+
+}
+.fixed {
+position: fixed;
+top: 0px;
+left: 0;
+width: 100%;
+z-index: 10;
+}
+.pawapo{
+  float: right;
+}
+header h1{
+  font-size:50px;
+  margin: 0;
+  text-align: center;
+}
+header li{
+  display: inline-block;
+  text-align: left;
+  font-size: 20px;
+  font-style: monospace;
+  border: 3px solid #333;
+  border-radius: 10px;
+  padding: 5px;
+  width:300px;
+  text-align:center;
+  background-color: #FFFF99;
+  text-decoration: none;
+}
+header a{
+  text-decoration: none;
+  color: black;
+}
+
+li:hover{
+  background-color: skyblue;
+  font-size:30px;
+}
+header ul{
+  padding: 0;
+  margin: 0;
+  border: 3px solid black;
+  background-color: skyblue;
+}
+header img{
+  float:left;
+  border-radius: 10px;
+  margin-top:15px;
+}
+header h2{
+  margin: 0;
+}
+body{
+  margin: 0;
+}
+/* secton */
+.concept{
+  background-attachment: fixed;
+  background-attachment: scroll;
+  background: url("../img/78058ef1dd856f66d66b69c1dc97d15c_m.jpg") center;
+  height:auto;
+  text-align:center;
+  margin-top: 50px;
+}
+.gazou{
+  width:600px;
+height:400px;
+text-align: center;
+/* position: relative; */
+display: inline-block;
+border: 10px solid orange;
+box-shadow: 0 0 4px #999;
+overflow: hidden; /* 不要部分は消す */
+margin-top: 50px;
+font-size: 20px;
+font-family: cursive;
+
+
+}
+.gg {
+    /* アニメーションに必要な部分 */
+    visibility: hidden;
+    opacity: 0;
+    transition: 1500ms;
+}
+.gg.is-show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.concept h1{
+  margin:0;
+  color:white;
+  font-size: 30px;
+}
+.concept h2{
+  margin-top:30px;
+  margin-bottom: 0px;
+  color:white;
+  font-size: 30px;
+}
+.concept p{
+  margin:0;
+  color:white;
+  margin-bottom: 30px;
+}
+.twitter{
+  float: right;
+  background-color:skyblue;
+  color: white;
+}
